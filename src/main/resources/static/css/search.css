@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  min-height: 100vh; 
+  margin: 0; 
+  padding: 0;
+  background-color: #003366;
+}
+.login-form, .create-account-form {
+	display: inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	margin-left: auto;
+	padding: 30px;
+	justify-items: center;
+	align-content: center;
+	background-color: rgba(153,173,193, 0.6);
+	border-radius: 20px;
+	width: 500px;
+	border: none;
+	box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+	vertical-align: middle;
+}
+
+.invisible, .create-account-form {
+	display: none;
+}
+
+input[type="text"], input[type="password"] {
+	border-radius: 10px;
+	height: 35px;
+	width: auto;
+	background-color: rgba(153,173,200, 0.7);
+	padding: 5px;
+} 
+
+input[type="radio"] {
+	margin-right: 20px;
+}
+
+label {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+button {
+	margin-right: 10px;
+	width: 100px;
+	background-color: #003366;
+}
+
+.btn-option {
+	margin-top: 20px;
+}
+
+a {
+	style: none;
+	color: #FFEDB6;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #FFDC6F;
+}
+
+.currency-options, .contact-options {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+nav {
+	align-content: start;
+	padding: 0px;
+}
+
+nav a {
+	padding: 0px 10px;
+}
+
+li {
+	list-style: none;
+	cursor: pointer;
+}
+
+li:hover {
+	background-color: #40a3ea;
+}
